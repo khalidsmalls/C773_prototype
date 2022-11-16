@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="includes/css/bootstrap-css/bootstrap.min.css" /> 
+		<link rel="stylesheet" type="text/css" href="includes/css/styles.css">
+		<title><?php echo $page_title; ?></title>
+		<link rel="icon" type="image/x-icon" href="../assets/images/logo-image.png">
+	</head>
+	<body>
+		<div class="d-flex justify-content-center">
+			<nav class="navbar navbar-expand-md col-lg-10">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.php">
+						<img class="img-fluid" src="../assets/images/logo-text.png" width="200" height="165">
+					</a>
+					<button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-around" id="nav-links">
+						<div class="navbar-nav">
+							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="#">Contact</a>
+							<div class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Pet Services
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Cats</a>
+									<a class="dropdown-item" href="#">Dogs</a>
+									<a class="dropdown-item" href="#">Fish</a>
+								</div>
+							</div>
+						</div>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="text" list="pet-types" aria-label="Search">
+							<datalist id="pet-types">
+								<option value="Cats"></option>
+								<option value="Dogs"></option>
+								<option value="Fish"></option>
+							</datalist>
+							<button class="btn" id="search-button" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+		
+		<div class="container-fluid" id="main"> 
+		<!-- begin page content --> 
