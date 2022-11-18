@@ -40,10 +40,16 @@
 }
 
 #mission-statement {
+	font-size: 1.17em;
 }
 
 .page-content {
 	border: 3px solid var(--midnight-blue);
+}
+
+.content {
+	font-size: 1.2em;
+	line-height: 1.6;
 }
 
 /*#main-content-sections {
@@ -58,6 +64,11 @@
 
 .external-links {
 	margin-bottom: 1em;
+}
+
+.remove-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 }
 
 ul {
