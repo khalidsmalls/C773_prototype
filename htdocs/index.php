@@ -21,7 +21,7 @@
 					<p id="hero-message">Paradigm Pet Professionals has 12 years’ experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support.</p>
 				</div>
 				<div>
-					<button class="btn" id="cta-button">
+					<button class="btn" id="cta-button" onclick="window.location.href='consultation-form.php';" >
 						Schedule a one-on-one Consultation 
 					</button>
 				</div>
@@ -48,7 +48,7 @@
 			</div>
 			<div class="col-xs-12 col-md-6 mb-2 pe-lg-0">
 				<aside class="page-content p-2" style="height:100%;">
-					<p class="p-1">We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our <a href="#">contact form</a> to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.</p>
+					<p class="p-1"><span style="font-size:1.1em;">We are also happy to help you navigate the adoption process!</span> We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our <a href="consultation-form.php">contact form</a> to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.</p>
 					<h3>Looking for your new best friend?</h3>
 					<p>The following organizations can help you find and adopt the perfect companion:</p>
 					<div class="row">

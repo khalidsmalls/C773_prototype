@@ -24,6 +24,7 @@
 
 #hero-image-div {
 	border: 3px solid var(--midnight-blue);
+	border-radius: 5px;
 }
 
 #hero-image {
@@ -41,10 +42,16 @@
 
 #mission-statement {
 	font-size: 1.17em;
+	border-radius: 5px;
+}
+
+#call-to-action {
+	border-radius: 5px;
 }
 
 .page-content {
 	border: 3px solid var(--midnight-blue);
+	border-radius: 5px;
 }
 
 .content {
@@ -66,10 +73,10 @@
 	margin-bottom: 1em;
 }
 
-.remove-padding {
+/*.remove-padding {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
-}
+}*/
 
 ul {
 	list-style-type: none;
@@ -92,16 +99,46 @@ ul li a:hover {
 	text-decoration: underline;
 }
 
+img {
+	border-radius: 5px;
+}
+
 span a {
 	text-decoration: none;
 }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=tel], input[type=search] {
 	border-color: var(--midnight-blue);
 }
 
 aside {
 	height: 100%;
+}
+
+.form {
+	border: 2px solid var(--midnight-blue);
+	border-radius: 5px;
+	background-color: #6699CC; 
+	font-size:1.3em;
+}
+
+.fieldset {
+	border: 2px solid var(--midnight-blue);
+	border-radius: 5px;
+	background-color: var(--silver);
+}
+
+.btn-secondary {
+	border: 1px solid #003B6D; 
+	background-color: #BDBDBD; 
+	color: #003B6D; 
+	font-size: 1.1em;
+}
+
+.btn-secondary:hover {
+	background-color: var(--midnight-blue);
+	border: 1px solid var(--midnight-blue);
+	color: var(--silver);
 }
 
 @media screen and (min-width: 763px) {
@@ -172,11 +209,6 @@ aside {
 		font-size: 1.3em;
 	}
 
-	.nav-link {
-		margin-right: 6.5em;
-		font-size: 1.3em; 
-	}
-
 	#mission-statement {
 		font-size: 2em;
 		max-width: 65%;
@@ -196,6 +228,11 @@ aside {
 
 	#cta-button {
 
+	}
+
+	.nav-link {
+		margin-right: 6.5em;
+		font-size: 1.3em; 
 	}
 
 }
