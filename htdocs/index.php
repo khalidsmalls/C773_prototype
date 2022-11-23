@@ -8,8 +8,8 @@
 		<div id="hero-image-div" class="col-xs-12 col-lg-10 col-xl-9">
 			<div class="p-1">
 				<picture>
-					<source media="(min-width: 600px)" srcset="../assets/images/dog-and-cat-med.jpg">
-					<source media="(min-width: 768px)" srcset="../assets/images/dog-and-cat-desktop.jpg"> 
+					<source media="(min-width: 768px)" srcset="../assets/images/dog-and-cat-med.jpg">
+					<source media="(min-width: 1000px)" srcset="../assets/images/dog-and-cat-desktop.jpg"> 
 					<img class="img-fluid" id="hero-image" src="../assets/images/dog-and-cat-mobile.jpg" alt="A dog and cat lying together">
 				</picture>
 			</div>

@@ -60,15 +60,6 @@
 		</div>
 	</div>
 
-
-
-
-
-
-
-
-
-
 	<!-- end page content --> 
 <?php
 	include('includes/footer.html'); 	

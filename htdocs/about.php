@@ -14,8 +14,8 @@
 		<section class="d-lg-flex page-content mb-2 p-1 col-xxl-9">
 			<div class="row">
 				<picture class="col-xl-6 col-xxl-5">
-					<source media="(min-width: 600px)" srcset="../assets/images/brown-dog-med.jpg">
-					<source media="(min-width: 768px)" srcset="../assets/images/brown-dog-large.jpg">
+					<source media="(min-width: 768px)" srcset="../assets/images/brown-dog-med.jpg">
+					<source media="(min-width: 1000px)" srcset="../assets/images/brown-dog-large.jpg">
 					<img class="img-fluid" src="../assets/images/brown-dog-small.jpg" alt="A cute brown dog" style="height:100%;">
 				</picture>
 				<div class="col-xl-5 col-xxl-6" style="align-self:center;">
@@ -36,8 +36,8 @@
 				<section class="page-content p-2 mb-2">
 					<h2 class="p-1">Evidence-based pet care advice for every pet lover</h2>
 						<picture>
-							<source media="(min-width: 600px)" srcset="../assets/images/veterinary-med.jpg">
-							<source media="(min-width: 768px)" srcset="../assets/images/veterinary-large.jpg">
+							<source media="(min-width: 768px)" srcset="../assets/images/veterinary-med.jpg">
+							<source media="(min-width: 1000px)" srcset="../assets/images/veterinary-large.jpg">
 							<img class="img-fluid" id="hero-image" src="../assets/images/veterinary-small.jpg" alt="A veterinarian caring for a dog">
 						</picture>
 					<p class="p-1">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. </p>

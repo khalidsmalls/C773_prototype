@@ -99,17 +99,7 @@
 		</div>
 	</section>
 	
-
-
-
-
-
-
-
-
-
-
-
+	
 	<!-- end page content --> 
 <?php
 	include('includes/footer.html'); 	
