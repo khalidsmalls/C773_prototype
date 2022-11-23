@@ -11,7 +11,7 @@
 	<hr/>
 
 	<div class="d-flex justify-content-center">
-		<section class="d-lg-flex page-content mb-2 p-1 col-lg-9">
+		<section class="d-lg-flex page-content mb-2 p-1 col-lg-11 col-xxl-9">
 			<div class="row">
 				<picture class="col-lg-5">
 					<source media="(min-width: 600px)" srcset="../assets/images/black-spaniel-med.jpg">
@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="d-flex justify-content-center">
-		<div class="row col-xs-12 col-lg-9"> 
+		<div class="row col-xs-12 col-lg-11 col-xxl-9"> 
 			<h2 class="display-3 text-center">Care and Diet</h2>
 			<div class="col-xs-12 col-md-6 mb-2 ps-lg-0">
 				<section class="page-content p-2" style="height:100%;">

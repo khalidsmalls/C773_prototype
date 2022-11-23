@@ -10,7 +10,7 @@
 	<hr/>
 
 	<div class="row d-flex justify-content-center mb-3">
-		<div class="col-xs-12 col-md-8 col-lg-4">
+		<div class="col-xs-12 col-md-8 col-lg-6 col-xxl-5">
 			<form action="contact-form-handler.php" method="post" class="p-1 form">
 				<fieldset class="p-3 fieldset">
 					<div class="row justify-content-center my-3 pt-2">

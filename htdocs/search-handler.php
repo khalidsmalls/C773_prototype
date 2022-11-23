@@ -5,7 +5,7 @@
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$searchterm = $_POST['search'] ?? NULL;
 		if ($searchterm) {
-			$filename = strtolower($searchterm) . ".php";
+			$filename = "pet-care-for-" . strtolower($searchterm) . ".php";
 
 			if (file_exists($filename)) {
 				header('Location: '. $filename);

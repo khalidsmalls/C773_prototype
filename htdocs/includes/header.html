@@ -10,17 +10,17 @@
 		<link rel="icon" type="image/x-icon" href="../assets/images/logo-image.png">
 	</head>
 	<body>
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center mt-3">
 			<nav class="navbar navbar-expand-md col-lg-10">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="index.php">
+					<a class="navbar-brand pt-lg-3 pe-lg-5" href="index.php">
 						<img class="img-fluid" src="../assets/images/logo-text.png" width="200" height="165">
 					</a>
 					<button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse justify-content-around" id="nav-links">
-						<div class="navbar-nav">
+						<div class="navbar-nav nav-pills nav-fill">
 							<a class="nav-link" href="index.php">Home</a>
 							<a class="nav-link" href="about.php">About</a>
 							<a class="nav-link" href="contact-form.php">Contact</a>
@@ -29,14 +29,15 @@
 									Pet Services
 								</a>
 								<div class="dropdown-menu">
-									<a class="dropdown-item" href="cats.php">Cats</a>
-									<a class="dropdown-item" href="dogs.php">Dogs</a>
-									<a class="dropdown-item" href="fish.php">Fish</a>
+									<a class="dropdown-item" href="pet-care-for-cats.php">Cats</a>
+									<a class="dropdown-item" href="pet-care-for-dogs.php">Dogs</a>
+									<a class="dropdown-item" href="pet-care-for-fish.php">Fish</a>
 								</div>
 							</div>
 						</div>
+
 						<form action="search-handler.php" method="post" class="d-flex" role="search">
-							<input class="form-control me-2" type="search" name="search" list="pet-types" aria-label="Search" required>
+							<input class="form-control me-2" style="min-width:10em;" type="search" name="search" list="pet-types" aria-label="Search" required>
 							<datalist id="pet-types">
 								<option value="Cats"></option>
 								<option value="Dogs"></option>
@@ -51,3 +52,4 @@
 		
 		<div class="container-fluid" id="main"> 
 		<!-- begin page content --> 
+
