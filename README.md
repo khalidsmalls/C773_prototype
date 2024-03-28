@@ -1,3 +1,3 @@
 # C773_prototype
 
-prototype website for fictitious pet care consultation company
+pet care consultation company frontend prototype
