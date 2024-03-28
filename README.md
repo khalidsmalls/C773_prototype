@@ -1,3 +1,3 @@
-# C773_prototype
+# Pet Care Consultant Frontend Demo
 
 pet care consultation company frontend prototype
